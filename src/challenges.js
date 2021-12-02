@@ -11,9 +11,10 @@ function calcArea(base,height) {
   let area = (base*height)/2;
   return area;
 }
-// Desafio 3
-function splitSentence() {
-  // seu código aqui
+// Desafio 3 - Usei como referência o blog da Trybe para usar o comando split. link:https://blog.betrybe.com/javascript/javascript-split/ 
+function splitSentence(frase) {
+  let separaString = frase.split(" ");
+  return separaString;
 }
 
 // Desafio 4
