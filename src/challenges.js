@@ -18,7 +18,10 @@ function splitSentence(frase) {
 }
 
 // Desafio 4
-function concatName() {
+function concatName(array) {
+  let primeiroNome = array.shift();
+  let ultimoNome = array.pop();
+  return ultimoNome + ", " + primeiroNome;
   // seu código aqui
 }
 
