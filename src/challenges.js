@@ -14,7 +14,7 @@ function calcArea(base, height) {
 // Desafio 3 - Usei como referência o blog da Trybe para usar o comando split. link:https://blog.betrybe.com/javascript/javascript-split/
 
 function splitSentence(frase) {
-  let separaString = frase.split(" ");
+  let separaString = frase.split(' ');
   return separaString;
 }
 
@@ -22,7 +22,7 @@ function splitSentence(frase) {
 function concatName(array) {
   let primeiroNome = array.shift();
   let ultimoNome = array.pop();
-  return ultimoNome + ", " + primeiroNome;
+  return ultimoNome + ', ' + primeiroNome;
 }
 
 // Desafio 5
@@ -38,17 +38,17 @@ function highestCount(numbers) {
 // Desafio 7 - Usei como referência a documentação de Math.abs(). link: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/abs
 function catAndMouse(mouse, cat1, cat2) {
   if (Math.abs(mouse - cat1) === Math.abs(mouse - cat2)) {
-    return "os gatos trombam e o rato foge";
+    return 'os gatos trombam e o rato foge';
   } else if (cat1 < cat2) {
-    return "cat1";
+    return 'cat1';
   } else {
-    return "cat2";
+    return 'cat2';
   }
 }
 
 // Desafio 8
 function fizzBuzz(numbers) {
-let resultado= [];
+let resultado = [];
   for (let index = 0; index < numbers.length; index +=1) {
     if (numbers[index] % 3 === 0 && numbers[index] % 5  === 0){
     resultado.push ("fizzBuzz");
@@ -64,16 +64,9 @@ return resultado;
 }
 
 // Desafio 9
-function encode(frase) {
-  frase.replace(a, 1);
-  frase.replace(e, 2);
-  frase.replace(i, 3);
-  frase.replace(o, 4);
-  frase.replace(u, 5);
-  let result = frase.replace (/"a"|"e"|"i"|"o"|"u"/gi,"1"|"2"|"3"|"4"|"5")
-  return frase;
+function encode() {
+  
 }
-console.log(encode("hi there!"));
 
 function decode() {
   // seu código aqui
