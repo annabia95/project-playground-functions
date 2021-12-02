@@ -30,13 +30,19 @@ function footballPoints(wins, ties) {
   return pontos;
 }
 // Desafio 6
-function highestCount() {
+function highestCount(numbers) {
   // seu código aqui
 }
 
-// Desafio 7
-function catAndMouse() {
-  // seu código aqui
+// Desafio 7 - Usei como referência a documentação de Math.abs(). link: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/abs
+function catAndMouse(mouse, cat1, cat2) {
+  if (Math.abs(mouse - cat1) === Math.abs(mouse - cat2)) {
+    return "os gatos trombam e o rato foge";
+  }else if (cat1 < cat2) {
+    return "cat1";
+  }else {
+    return "cat2";
+  }
 }
 
 // Desafio 8
