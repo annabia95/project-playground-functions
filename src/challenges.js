@@ -30,9 +30,22 @@ function footballPoints(wins, ties) {
   let pontos = (wins * 3) + ties;
   return pontos;
 }
-// Desafio 6
+// Desafio 6 - Usei for/of para iterar os valores da array.
 function highestCount(numbers) {
-  // seu código aqui
+  let numeroMaior = numbers[0];
+  let cont = 0;
+  for (let index of numbers) {
+    if (index > numeroMaior) {
+      numeroMaior = index;
+    }
+  }
+// Agora que já tenho o maior numero da array, posso contar quantas vezes aparece. 
+for (let index of numbers) {
+  if (index === numeroMaior){
+    cont += 1;
+  }
+}
+return cont;
 }
 
 // Desafio 7 - Usei como referência a documentação de Math.abs(). link: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/abs
@@ -51,13 +64,13 @@ function fizzBuzz(numbers) {
 let resultado = [];
   for (let index = 0; index < numbers.length; index +=1) {
     if (numbers[index] % 3 === 0 && numbers[index] % 5  === 0){
-    resultado.push ("fizzBuzz");
+    resultado.push ('fizzBuzz');
     } else if (numbers[index] % 3 === 0) {
-      resultado.push ("fizz");
+      resultado.push ('fizz');
     } else if (numbers[index] % 5 === 0) {
-      resultado.push ("buzz");
+      resultado.push ('buzz');
     } else {
-      resultado.push ("bug!")
+      resultado.push ('bug!')
     }
   }
 return resultado;
@@ -65,7 +78,7 @@ return resultado;
 
 // Desafio 9
 function encode() {
-  
+
 }
 
 function decode() {
