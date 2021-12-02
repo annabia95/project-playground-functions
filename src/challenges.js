@@ -11,7 +11,8 @@ function calcArea(base, height) {
   let area = (base * height) / 2;
   return area;
 }
-// Desafio 3 - Usei como referência o blog da Trybe para usar o comando split. link:https://blog.betrybe.com/javascript/javascript-split/ 
+// Desafio 3 - Usei como referência o blog da Trybe para usar o comando split. link:https://blog.betrybe.com/javascript/javascript-split/
+
 function splitSentence(frase) {
   let separaString = frase.split(" ");
   return separaString;
@@ -38,9 +39,9 @@ function highestCount(numbers) {
 function catAndMouse(mouse, cat1, cat2) {
   if (Math.abs(mouse - cat1) === Math.abs(mouse - cat2)) {
     return "os gatos trombam e o rato foge";
-  }else if (cat1 < cat2) {
+  } else if (cat1 < cat2) {
     return "cat1";
-  }else {
+  } else {
     return "cat2";
   }
 }
@@ -51,22 +52,29 @@ let resultado= [];
   for (let index = 0; index < numbers.length; index +=1) {
     if (numbers[index] % 3 === 0 && numbers[index] % 5  === 0){
     resultado.push ("fizzBuzz");
-    }else if (numbers[index] % 3 === 0) {
+    } else if (numbers[index] % 3 === 0) {
       resultado.push ("fizz");
-    }else if (numbers[index] % 5 === 0) {
+    } else if (numbers[index] % 5 === 0) {
       resultado.push ("buzz");
-    }else {
+    } else {
       resultado.push ("bug!")
     }
   }
 return resultado;
 }
-console.log (fizzBuzz ([2, 15, 7, 9, 45]));
 
 // Desafio 9
-function encode() {
-  // seu código aqui
+function encode(frase) {
+  frase.replace(a, 1);
+  frase.replace(e, 2);
+  frase.replace(i, 3);
+  frase.replace(o, 4);
+  frase.replace(u, 5);
+  let result = frase.replace (/"a"|"e"|"i"|"o"|"u"/gi,"1"|"2"|"3"|"4"|"5")
+  return frase;
 }
+console.log(encode("hi there!"));
+
 function decode() {
   // seu código aqui
 }
