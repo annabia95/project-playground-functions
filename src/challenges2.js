@@ -1,17 +1,23 @@
 // Desafio 10
-function techList(NomeTech, name) {
-  for (let index = 0 ; index < NomeTech.length ; index +=1 ){
-    let list = [
-      {
-      tech: NomeTech[index],
-      name: name,
-    },
-  ];
+function techList(nomeTech, name) {
+  // Preciso ordenar minha array de tecnologias
+  nomeTech.sort();
+  // Criar uma nova array para colocar o objeto
+  let novaArray = [];
+  // Caso nomeTech seja vazio, retornar vazio!
+  if (nomeTech.length === 0) {
+    return 'Vazio!';
   }
-return list; 
+  // Fazer uma iteração para percorrer todas as posições da array nomeTech, depois armazenar na novaArray
+  for (let index = 0; index < nomeTech.length; index += 1) {
+    let list = {
+      tech: nomeTech[index],
+      name: name,
+    };
+    novaArray.push(list);
+  }
+  return novaArray;
 }
-console.log (techList(["React", "Jest", "HTML", "CSS", "JavaScript"], "Lucas"));
-
 // Desafio 11
 function generatePhoneNumber() {
   // seu código aqui
