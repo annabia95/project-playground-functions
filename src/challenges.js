@@ -62,7 +62,7 @@ function catAndMouse(mouse, cat1, cat2) {
 // Desafio 8
 function fizzBuzz(numbers) {
 let resultado = [];
-  for (let index = 0; index < numbers.length; index +=1) {
+  for (let index = 0; index < numbers.length; index += 1) {
     if (numbers[index] % 3 === 0 && numbers[index] % 5  === 0){
     resultado.push ('fizzBuzz');
     } else if (numbers[index] % 3 === 0) {
@@ -76,13 +76,15 @@ let resultado = [];
 return resultado;
 }
 
-// Desafio 9
-function encode() {
-
+// Desafio 9 - Usei como referência o comando replace para mudar as vogais por números. link: https://www.w3schools.com/jsref/jsref_replace.asp. link: https://stackoverflow.com/questions/44324892/how-can-i-replace-multiple-characters-in-a-string/44325087
+function encode(myString) {
+let result = myString.replace(/a/g, 1).replace(/e/g, 2).replace(/i/g, 3).replace(/o/g, 4).replace(/u/g, 5);
+return result;
 }
 
-function decode() {
-  // seu código aqui
+function decode(myString) {
+let result = myString.replace(/1/g, 'a').replace(/2/g, 'e').replace(/3/g, 'i').replace(/4/g, 'o').replace(/5/g, 'u');
+return result;
 }
 
 module.exports = {
