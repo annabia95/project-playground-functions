@@ -6,7 +6,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 # Boas vindas ao repositório do Projeto Playground Functions!
 
-    `Requisitos obrigatórios:`
+    # Requisitos obrigatórios:
     - [x] [1 - Crie uma função usando o operador &&](#1---crie-uma-função-usando-o-operador-)
     - [x] [2 - Crie uma função que calcule a área de um triângulo](#2---crie-uma-função-que-calcule-a-área-de-um-triângulo)
     - [x] [3 - Crie uma função que divida a frase](#3---crie-uma-função-que-divida-a-frase)
@@ -18,7 +18,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
     - [x] [9 - Crie uma função que Codifique e Decodifique](#9---crie-uma-função-que-codifique-e-decodifique)
     - [x] [10 - Crie uma função de Lista de tecnologias](#10---crie-uma-função-de-lista-de-tecnologias)
 
-    `Requisitos bônus:`
+    # Requisitos bônus:
     - [x] [11 - Crie uma função de Número de telefone](#11---crie-uma-função-de-número-de-telefone)
     - [x] [12 - Crie uma função de Condição de existência de um triângulo](#12---crie-uma-função-de-condição-de-existência-de-um-triângulo)
     - [x] [13 - Crie uma função de Boas Vindas ao Bar da Trybe!](#13---crie-uma-função-de-boas-vindas-ao-bar-da-trybe!)
