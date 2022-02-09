@@ -8,7 +8,7 @@ Veja o exemplo a seguir do layout do projeto!
 
 ## Demo
 
-Insert gif or link to demo
+![Demo](img/video.gif)
 
 ## Habilidades Desenvolvidas
 
