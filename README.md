@@ -1,10 +1,31 @@
 Este projeto contém os requisitos realizados por _[Anna Beatriz Garcia Trajano de Sá](www.linkedin.com/in/anna-beatriz-trajano-de-sá)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
 
-_"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."_
+# Project Playground Functions
 
-O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
+Implementei e desenvolvi funções em JavaScript a partir dos requisitos determinados.
 
-# Boas vindas ao repositório do Projeto Playground Functions!
+Veja o exemplo a seguir do layout do projeto!
+
+## Demo
+
+Insert gif or link to demo
+
+## Habilidades Desenvolvidas
+
+Neste projeto, desenvolvi as seguintes habilidades:
+
+- Escrever códigos em JavaScript que usam variáveis e tipos primitivos;
+- Utilizar conceitos da linguagem como a tipagem dinâmica e operadores lógicos/aritméticos/de atribuição no seu código;
+- Criar códigos que usam estruturas condicionais, como o if/else ;
+- Manipular arrays (listas);
+- Utilizar o comando for ;
+- Quebrar grandes problemas em pequenos;
+- Utilizar a lógica de programação na resolução de problemas;
+- Manipular objetos;
+- Utilizar o comando for/in ;
+- Utilizar funções para organizar e estruturar o seu código;
+
+# Escopo do Projeto
 
     # Requisitos obrigatórios:
     - [x] [1 - Crie uma função usando o operador &&](#1---crie-uma-função-usando-o-operador-)
@@ -23,15 +44,4 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
     - [x] [12 - Crie uma função de Condição de existência de um triângulo](#12---crie-uma-função-de-condição-de-existência-de-um-triângulo)
     - [x] [13 - Crie uma função de Boas Vindas ao Bar da Trybe!](#13---crie-uma-função-de-boas-vindas-ao-bar-da-trybe!)
 
-# Habilidades
 
-- Escrever códigos em JavaScript que usam variáveis e tipos primitivos;
-- Utilizar conceitos da linguagem como a tipagem dinâmica e operadores lógicos/aritméticos/de atribuição no seu código;
-- Criar códigos que usam estruturas condicionais, como o if/else ;
-- Manipular arrays (listas);
-- Utilizar o comando for ;
-- Quebrar grandes problemas em pequenos;
-- Utilizar a lógica de programação na resolução de problemas;
-- Manipular objetos;
-- Utilizar o comando for/in ;
-- Utilizar funções para organizar e estruturar o seu código;
