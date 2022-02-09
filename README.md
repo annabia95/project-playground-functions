@@ -25,7 +25,7 @@ Neste projeto, desenvolvi as seguintes habilidades:
 - Utilizar o comando for/in ;
 - Utilizar funções para organizar e estruturar o seu código;
 
-# Escopo do Projeto
+## Escopo do Projeto
 
     # Requisitos obrigatórios:
     - [x] [1 - Crie uma função usando o operador &&](#1---crie-uma-função-usando-o-operador-)
